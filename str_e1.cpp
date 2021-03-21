@@ -1,15 +1,16 @@
 #include<stdio.h>
+#define cadastros 500
 
 struct hab{
     int age, chl;
     char sex[10];
-    float sly;
+    long sly;
 };
 
 int main(void){
 
     hab habitante[500];
-    int i = 500;
+    int i = cadastros;
 
     for (i; i>0; i--){
 
