@@ -14,6 +14,7 @@ int main(void){
     for (i; i>0; i--){
 
         printf("Genero: ");
+        fflush(stdin);
         gets(habitante[i].sex);
         printf("Idade: ");
         scanf("%d", &habitante[i].age);
