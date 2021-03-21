@@ -4,7 +4,7 @@
 struct hab{
     int age, chl;
     char sex[10];
-    long sly;
+    float sly;
 };
 
 int main(void){
