@@ -19,11 +19,10 @@ int main(){
 
     int i = 1;
     user cad[10];
-    FILE* fopen(teste.doc);
 
     for (i; i <= 10; i++){
 
-        printf("\n\nPreencha as informações dos usuarios.\n");
+        printf("\n\nPreencha as informaÃ§Ãµes dos usuarios.\n");
         printf("\nNome: ");
         fflush(stdin);
         gets(cad[i].nome);
